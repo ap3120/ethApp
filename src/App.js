@@ -1,10 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Loader from './Loader';
+import Send from './Send';
+import Transactions from './Transactions';
 
 function App() {
     return (
-        <div className="App">
-            <h1>Send Crypto accross the world.</h1>
+        <div className="container">
+            <Send />
+            <Transactions />
         </div>
     );
 }

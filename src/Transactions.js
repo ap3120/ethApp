@@ -31,7 +31,7 @@ export default function Transactions(){
         <div className="transactions-container">
             {currentAccount ? (
                 <>
-                <h2>Latest transactions</h2>
+                <h2 style={{color: '#fff'}}>Latest transactions</h2>
                 <table className="table">
                     <thead className="table-head">
                         <tr>
@@ -50,7 +50,7 @@ export default function Transactions(){
                 </table>
                 </>
             ):(
-                <h2>Connect your account to see the latest transactions</h2>
+                <h2 style={{color: '#fff'}}>Connect your account to see the latest transactions</h2>
             )}
         </div>
     );

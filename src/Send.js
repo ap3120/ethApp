@@ -30,7 +30,7 @@ export default function Send(){
             {!currentAccount && (
                 <>
                 <button type="button" onClick={connectWallet} className="button">Connect Wallet</button>
-                <p>Don't have Metamask yet, click <a href="https://metamask.io/" target="_blank">here</a></p>
+                <p style={{color: '#fff'}}>Don't have Metamask yet, click <a href="https://metamask.io/" target="_blank" style={{color: '#aaf'}}>here</a></p>
                 </>
             )}
             <div className="card">
@@ -43,7 +43,7 @@ export default function Send(){
                 <Input placeholder="Amount (ETH)" name="amount" type="number" handleChange={handleChange}/>
                 <Input placeholder="Message" name="message" type="text" handleChange={handleChange}/>
                 <div>
-                    {isLoading ? (<Loader />) : (<button type="button" onClick={handleSubmit} className="button" style={{width: '100%'}}>Send Now</button>)}    
+                    {isLoading ? (<Loader />) : (<button type="button" onClick={handleSubmit} className="send-button" style={{width: '100%'}}>Send Now</button>)}    
                 </div>
             </div>
         </div>

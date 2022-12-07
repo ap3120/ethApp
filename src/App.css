@@ -4,7 +4,8 @@
 }
 #root{
     background-image: url('./cool-background.png');
-    height: 100vh;
+    background-attachment: fixed;
+    min-height: 100vh;
 }
 .container{
     display: flex;

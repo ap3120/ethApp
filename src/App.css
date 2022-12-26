@@ -2,11 +2,13 @@
     --tempColor: #f00;    
     --spinnerColor: #bf1313;
 }
+/*
 #root{
     background-image: url('./cool-background.png');
     background-attachment: fixed;
     min-height: 100vh;
 }
+*/
 .container{
     display: flex;
     justify-content: space-around;

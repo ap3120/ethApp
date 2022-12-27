@@ -2,7 +2,7 @@ import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
-export const Particles = () => {
+export default function Particle() {
     const particlesInit = useCallback(async engine => {
         console.log(engine);
         // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
@@ -23,7 +23,7 @@ export const Particles = () => {
                 {
                 background: {
                     color: {
-                        value: "#0d47a1",
+                        value: "#04013D",
                     },
                 },
                 fpsLimit: 120,
@@ -70,7 +70,7 @@ export const Particles = () => {
                             default: "bounce",
                         },
                         random: false,
-                        speed: 6,
+                        speed: 1,
                         straight: false,
                     },
                     number: {

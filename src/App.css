@@ -46,6 +46,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     border: 0px;
+    z-index: 1;
 }
 .button:hover{
     cursor: pointer;
